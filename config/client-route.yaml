@@ -1,0 +1,14 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  labels:
+    app: client
+    service: client
+  name: todo
+spec:
+  port:
+    targetPort: 3000
+  to:
+    kind: ""
+    name: client
+

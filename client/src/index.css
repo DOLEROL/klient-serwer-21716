@@ -1,0 +1,35 @@
+html,
+body {
+  min-height: 100%;
+}
+body {
+  /* background: rgb(0, 30, 60); */
+  background: rgb(10, 25, 41);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+div.item,
+a.item {
+  color: rgb(160, 170, 180) !important;
+  font-size: 1rem !important;
+}
+/* div.card{
+    background: rgb(0, 30, 60); 
+    color: rgb(160, 170, 180) !important;
+} */
+#root {
+  height: 100%;
+}
+.container {
+  height: 100vh;
+}
+.ui.grid > .column:not(.row) {
+  padding-bottom: 0;
+}
+form {
+  margin: 0 auto;
+  padding: 30px 0 30px 0;
+  min-width: 300;
+}
+.ui.vertical.menu .menu .item {
+  font-size: 1.1em;
+}
